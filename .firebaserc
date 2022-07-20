@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "angular-tour-of-heroes-1a2a8",
+    "staging": "angular-tour-of-heroes-1a2a8"
+  },
+  "targets": {
+    "angular-tour-of-heroes-1a2a8": {
+      "hosting": {
+        "angular-tour-of-heroes": [
+          "angular-tour-of-heroes-1a2a8"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
