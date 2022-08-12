@@ -16,5 +16,8 @@ export class HeroesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
+  submit(): void {
+  alert("clicked");
+  }  
 }

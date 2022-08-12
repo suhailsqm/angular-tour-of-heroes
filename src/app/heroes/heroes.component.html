@@ -6,3 +6,5 @@
   <label for="name">Hero name: </label>
   <input id="name" [(ngModel)]="hero.name" placeholder="name">
 </div>
+<button id="createCustomerButton" class="btn btn-primary"  (click)="submit()" [disabled]="!hero.name">
+          Save</button>	
